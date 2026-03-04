@@ -6,9 +6,9 @@ on:
       - main
 
 env:
-  TF_CLOUD_ORGANIZATION: "nehaa-Terraform-CICD"
+  TF_CLOUD_ORGANIZATION: "Saul-Terraform-CICD"
   TF_API_TOKEN: "${{ secrets.TF_API_TOKEN }}"
-  TF_WORKSPACE: "nehaa-Dev"
+  TF_WORKSPACE: "Dev"
   CONFIG_DIRECTORY: "./terraform/"
 
 jobs:
